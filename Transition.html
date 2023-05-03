@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Transition</title>
+        <style>
+            div{
+                position:relative;
+                margin-top:50px;
+                width:100px;
+                height:100px;
+                background-color:rgb(14, 226, 28);
+                transition:4s;
+                <!--width 2s height 3s transform 3s;
+                    all 4s;
+                    The different types of transition are,
+                    ease, ease is, ease out,ease-in-out, linear-->
+            }
+            div:hover{
+                width:200px;
+                height:200px;
+                border-radius:50%;
+                background-color:brown;
+                transform:rotate(180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>animation</title>
+        <style>
+            div{
+                position:relative;
+                height:100px;
+                width:100px;
+                background-color:aqua;
+                animation:abc 4s infinite;
+            }
+            @keyframes abc{
+                /*First method*/
+                from{
+                    top:0px;
+                    left:0px;
+                }
+                to{
+                    top:0px;
+                    left:300px;
+                }
+
+                /*Secong method*/
+                from{
+                    top:0px;
+                    left:300px;
+                }
+                to{
+                    top:300px;
+                    left:300px;
+                }
+
+                /*Third method*/
+                from{
+                    top:300px;
+                    left:300px;
+                }
+                to{
+                    top:300px;
+                    left:0px;
+                }
+
+                /*Fourth method*/
+                from{
+                    top:300px;
+                    left:0px;
+                }
+                to{
+                    top:0px;
+                    left:0px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div></div>
+    </body>
+</html>
